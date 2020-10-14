@@ -1,6 +1,6 @@
 from book_library_app import app
 from flask import jsonify
-
+from book_library_app.models import Author
 
 # dekorator route - informuje że funkcja ma zostać wywołana w momencie wejścia pod podanu adres url
 # Dekorator app.route rejestruje daną funkcjonalność dla danej regóły URL
